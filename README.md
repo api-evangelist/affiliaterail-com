@@ -66,7 +66,7 @@
 
 AffiliateRail provides affiliate software for SaaS companies, offering a flat monthly price with no commission on payouts. It integrates with Stripe, Paddle, PayPal, Wise, and Payoneer, allowing businesses to track sales and pay affiliates directly. The platform includes a dashboard, affiliate portal, and detailed payout reporting, plus features like crypto payouts and partner programs. AffiliateRail aims to simplify affiliate program management for SaaS founders, delivering transparent pricing and comprehensive tools for growth.
 
-**Areas:** Affiliate · SaaS · Marketing · Payments · AffiliateSoftware · Company
+**Areas:** Affiliates · Software-as-a-Service · Marketing · Payments · Affiliate Software · Company
 
 ## AffiliateRail on APIs.io
 
@@ -114,18 +114,38 @@ Event-driven and webhook contracts.
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Affiliaterail Com Agentic Access](https://apis.io/agentic-access/affiliaterail-com/affiliaterail-com-agentic-access/)
+- [AffiliateRail Agentic Access](https://apis.io/agentic-access/affiliaterail-com/affiliaterail-com-agentic-access/)
 
-#### JSON Schema (6)
+#### JSON Schema (66)
 
 The data models the API reads and writes.
 
+- [Application](https://apis.io/schemas/affiliaterail-com/affiliaterail-com-application/)
+- [ApplicationList](https://apis.io/schemas/affiliaterail-com/affiliaterail-com-application-list/)
+- [ApplicationReject](https://apis.io/schemas/affiliaterail-com/affiliaterail-com-application-reject/)
+- [Balance](https://apis.io/schemas/affiliaterail-com/affiliaterail-com-balance/)
+- [BalanceList](https://apis.io/schemas/affiliaterail-com/affiliaterail-com-balance-list/)
+- [Campaign](https://apis.io/schemas/affiliaterail-com/affiliaterail-com-campaign/)
+- [CampaignList](https://apis.io/schemas/affiliaterail-com/affiliaterail-com-campaign-list/)
+- [CampaignSend](https://apis.io/schemas/affiliaterail-com/affiliaterail-com-campaign-send/)
+- [Click](https://apis.io/schemas/affiliaterail-com/affiliaterail-com-click/)
+- [ClickCreate](https://apis.io/schemas/affiliaterail-com/affiliaterail-com-click-create/)
+- [ClickList](https://apis.io/schemas/affiliaterail-com/affiliaterail-com-click-list/)
 - [Commission](https://apis.io/schemas/affiliaterail-com/affiliaterail-com-commission/)
+- [Coupon](https://apis.io/schemas/affiliaterail-com/affiliaterail-com-coupon/)
+- [CouponCreate](https://apis.io/schemas/affiliaterail-com/affiliaterail-com-coupon-create/)
+- [CouponList](https://apis.io/schemas/affiliaterail-com/affiliaterail-com-coupon-list/)
+- [CouponUpdate](https://apis.io/schemas/affiliaterail-com/affiliaterail-com-coupon-update/)
 - [Customer](https://apis.io/schemas/affiliaterail-com/affiliaterail-com-customer/)
+- [Deleted](https://apis.io/schemas/affiliaterail-com/affiliaterail-com-deleted/)
 - [FinderCloneSearchCreate](https://apis.io/schemas/affiliaterail-com/affiliaterail-com-finder-clone-search-create/)
-- [Partner](https://apis.io/schemas/affiliaterail-com/affiliaterail-com-partner/)
-- [Payout](https://apis.io/schemas/affiliaterail-com/affiliaterail-com-payout/)
-- [Sale](https://apis.io/schemas/affiliaterail-com/affiliaterail-com-sale/)
+- [FinderWebhookDeliveryPage](https://apis.io/schemas/affiliaterail-com/affiliaterail-com-finder-webhook-delivery-page/)
+- [FinderWebhookEndpoint](https://apis.io/schemas/affiliaterail-com/affiliaterail-com-finder-webhook-endpoint/)
+- [FinderWebhookEndpointCreate](https://apis.io/schemas/affiliaterail-com/affiliaterail-com-finder-webhook-endpoint-create/)
+- [FinderWebhookEndpointPage](https://apis.io/schemas/affiliaterail-com/affiliaterail-com-finder-webhook-endpoint-page/)
+- [FinderWebhookReplay](https://apis.io/schemas/affiliaterail-com/affiliaterail-com-finder-webhook-replay/)
+- [FinderWebhookTestResult](https://apis.io/schemas/affiliaterail-com/affiliaterail-com-finder-webhook-test-result/)
+- …and 41 more published on APIs.io
 
 #### JSON-LD (1)
 
@@ -143,22 +163,22 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Affiliaterail Com Authentication](https://apis.io/security/affiliaterail-com/affiliaterail-com-authentication/)
-- [Affiliaterail Com Domain Security](https://apis.io/security/affiliaterail-com/affiliaterail-com-domain-security/)
-- [Affiliaterail Com Trust Center](https://apis.io/security/affiliaterail-com/affiliaterail-com-trust-center/)
-- [Affiliaterail Com Vulnerability Disclosure](https://apis.io/security/affiliaterail-com/affiliaterail-com-vulnerability-disclosure/)
+- [AffiliateRail Authentication](https://apis.io/security/affiliaterail-com/affiliaterail-com-authentication/)
+- [AffiliateRail Domain Security](https://apis.io/security/affiliaterail-com/affiliaterail-com-domain-security/)
+- [AffiliateRail Trust Center](https://apis.io/security/affiliaterail-com/affiliaterail-com-trust-center/)
+- [AffiliateRail Vulnerability Disclosure](https://apis.io/security/affiliaterail-com/affiliaterail-com-vulnerability-disclosure/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Affiliaterail Com Plans Pricing](https://apis.io/plans/affiliaterail-com/affiliaterail-com-plans-pricing/)
+- [AffiliateRail Plans Pricing](https://apis.io/plans/affiliaterail-com/affiliaterail-com-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [Affiliaterail Com Rate Limits](https://apis.io/rate-limits/affiliaterail-com/affiliaterail-com-rate-limits/)
+- [AffiliateRail Rate Limits](https://apis.io/rate-limits/affiliaterail-com/affiliaterail-com-rate-limits/)
 
 ## Where to find this API
 
@@ -178,33 +198,33 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 69.1** — exemplar · rubric 0.25.0 · scored 2026-11-01
+**Kin Score 69.1** — exemplar · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 66.1 |
-| Contract quality | 68.0 |
-| Contract governance | 79.1 |
-| Operational transparency | 37.4 |
+| Discoverability | 73.2 |
+| Contract quality | 71.0 |
+| Contract governance | 22.0 |
+| Operational transparency | 35.7 |
 | Developer ergonomics | 57.1 |
-| Access clarity | 88.9 |
+| Access clarity | 87.2 |
 
-**Agent readiness 45.7** — agent-ready (gated down from agent-native)
+**Agent readiness 35.3** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
-| MCP Server | documented (partial credit) |
+| MCP Server | — |
 | Auth Clarity | bearer (partial credit) |
 | Idempotency | — |
 | Error Semantics | verified |
 | OpenAPI Examples | partial |
 | Rate Limit Signal | documented (partial credit) |
-| Event Surface Described | unknown |
+| Event Surface Described | yes |
 | Agent Skills | — |
-| Well Known Catalog | yes |
+| Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | — |
 | Dry Run Mode | — |
@@ -214,6 +234,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | paginated |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
 **Regulatory alignment 32.1** — Payments
 
